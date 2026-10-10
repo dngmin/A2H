@@ -1,0 +1,11 @@
+.DS_Store
+.vscode/
+.venv/
+.env
+build/
+
+# C++ build outputs
+*.exe
+*.o
+*.obj
+*.out
