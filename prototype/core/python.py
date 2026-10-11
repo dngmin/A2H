@@ -95,8 +95,9 @@ class A2H():
 
         self.L, self.V, self.T = "", "", ""
 
-    def run(self):
-        input_string = input()
+    def run(self, input_string = None):
+        if not input_string:
+            input_string = input()
         len_input = len(input_string)
         output = []
 
@@ -131,6 +132,8 @@ class A2H():
         elif platform.system() == "Windows":
             with os.popen("clip", "w") as pipe:
                 pipe.write(result)
+
+        return result
 
 if __name__ == "__main__":
     a2h = A2H()

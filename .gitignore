@@ -3,6 +3,7 @@
 .venv/
 .env
 build/
+__pycache__/
 
 # C++ build outputs
 *.exe
