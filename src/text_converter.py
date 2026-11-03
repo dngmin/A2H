@@ -93,12 +93,11 @@ class A2H():
             'g': 27,  # ㅎ
         }
 
-        self.L, self.V, self.T = "", "", ""
-
     def run(self, input_string = None):
         if not input_string:
             input_string = input()
         len_input = len(input_string)
+        self.L, self.V, self.T = "", "", ""
         output = []
 
         # temporary

@@ -31,6 +31,7 @@ class MainWindow(QMainWindow):
         self.layout.addWidget(self.output_edit)
 
     def convert(self, input_string):
+        if not input_string: return
         converted = self.core.run(input_string)
         self.output_edit.setText(converted)
 
