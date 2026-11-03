@@ -5,6 +5,8 @@
 build/
 __pycache__/
 
+scratch.py
+
 # C++ build outputs
 *.exe
 *.o
